@@ -1,0 +1,589 @@
+body {
+  margin: 0;
+  line-height: normal;
+  font-family: 'Mont' !important;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  padding: 69px 414px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  background: #323232;
+}
+
+.urelocate-page {
+  position: relative;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 0;
+  gap: 50px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.page-main {
+  display: flex;
+  width: 1290px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 50px;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+
+t1 {
+  align-self: stretch;
+  color: #FFF;
+  font-family: Mont;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.txt-1 {
+  align-self: stretch;
+  color: #FFF;
+  font-family: Mont;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.b1 {
+  align-self: stretch;
+  color: #000;
+  text-align: center;
+  font-family: Mont;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.b1-r {
+  align-self: stretch;
+  color: #000;
+  text-align: right;
+  font-family: Mont;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.b1-w {
+  align-self: stretch;
+  color: #fff;
+  text-align: left
+  font-family: Mont;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.b2-b {
+  align-self: stretch;
+  color: #000;
+  text-align: left
+  font-family: Mont;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  color: black;
+}
+
+h3 {
+  color: #FFF;
+  font-family: Mont;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  flex: 1 0 0;
+  margin: 18px 0px;
+}
+
+h4 {
+  color: #FFF;
+  font-family: Mont;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  flex: 1 0 0;
+}
+
+.h4-text {
+  color: #FFF;
+  font-family: Mont;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  flex: 1 0 0;
+}
+
+h4-1 {
+  color: #FFF;
+  font-family: Mont;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+h4-1c {
+  color: #FFF;
+  font-family: Mont;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration-line: line-through;
+}
+
+h4-1b {
+  color: #000;
+  text-align: center;
+  font-family: Mont;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+h4-1-l {
+  color: #000;
+  text-align: left;
+  font-family: Mont;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+h4-2w {
+  color: #FFF;
+  text-align: center;
+  font-family: Mont;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h4-2w-c {
+  color: #FFF;
+  text-align: left;
+  font-family: Mont;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h4-2bl {
+  color: #000;
+  text-align: center;
+  font-family: Mont;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h4-2p {
+  color: #B98CFF;
+  text-align: center;
+  font-family: Mont;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h5 {
+  color: #000;
+  text-align: right;
+  font-family: Mont;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.text1 {
+  color: #FFF;
+  font-family: Mont;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  flex: 1 0 0;
+  margin: 0;
+}
+
+h4-13u {
+  color: #FFF;
+  font-family: Mont;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+h4-18bl {
+  color: #000;
+  font-family: Mont;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h4-32bl {
+  align-self: stretch;
+  color: #000;
+  font-family: Mont;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 32px; /* 100% */
+}
+
+/*
+Header - Начало
+*/
+
+header {
+  display: flex;
+  width: 1290px;
+  padding-top: 50px;
+  align-items: center;
+  gap: 704px;
+}
+
+.header-logo {
+  display: flex;
+  padding: 10px;
+  align-items: flex-start;
+  gap: 10px;
+  flex: 1 0 0;
+  color: #000;
+  font-family: Mont;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.header-nav {
+  display: flex;
+  padding: 0px 10px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 55px;
+  flex: 1 0 0;
+}
+
+input {
+
+}
+
+input::placeholder {
+  color: #000;
+  font-family: Mont;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/*
+Header - Конец
+*/
+
+/*
+Назад - Начало
+*/
+
+.back {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.back-in {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.back-text {
+  color: #000;
+  font-family: Mont;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 177.778% */
+}
+
+/*
+Назад - Конец
+*/
+
+.page-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 90px;
+  align-self: stretch;
+}
+
+/*
+Статья - Начало
+*/
+
+.article {
+  display: flex;
+  width: 900px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 50px;
+  align-self: stretch;
+}
+
+.main-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 10px;
+  flex: 1 0 0;
+  align-self: stretch;
+  border-radius: 32px;
+}
+
+.main-img-cont {
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+.article-head {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 9px;
+  align-self: stretch;
+}
+
+.article-text {
+  color: #000;
+  font-family: Mont;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 9px;
+  align-self: stretch;
+}
+
+figcaption {
+  align-self: stretch;
+  color: #000;
+  font-family: Mont;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+}
+
+.article-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 10px;
+  flex: 1 0 0;
+  align-self: stretch;
+  border-radius: 32px;
+}
+
+/*
+Статья - Конец
+*/
+
+/*
+Инфо - Начало
+*/
+
+.info {
+  display: flex;
+  width: 284px;
+  height: 390px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 60px;
+}
+
+.info-tags {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 18px;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+.tag {
+  display: flex;
+  padding: 5px 13px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  color: #000;
+  text-align: center;
+  font-family: Mont;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 32px;
+  border: 2px solid #000;
+}
+
+.info-head {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 32px;
+  align-self: stretch;
+}
+
+.info-share {
+  display: flex;
+  padding: 11px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 18px;
+  background: #000;
+}
+
+.info-share-text {
+  flex: 1 0 0;
+  color: #FFF;
+  text-align: center;
+  font-family: Mont;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/*
+Инфо - Конец
+*/
+
+/*
+Footer - Начало
+*/
+
+.footer-info {
+  display: flex;
+  width: 900px;
+  align-items: flex-start;
+  gap: 90px;
+  flex-shrink: 0;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 9px;
+  flex: 1 0 0;
+}
+
+.footer-center {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 9px;
+  flex: 1 0 0;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+}
+
+.footer-mail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+}
+
+.footer-icons {
+  display: flex;
+  align-items: flex-end;
+  gap: 18px;
+}
+
+.footer-social-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.footer-copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+}
+
+/*
+Footer - Конец
+*/
